@@ -40,6 +40,7 @@ cd my-app/src/app
 npx ng serve
 ```
 
-各componentのページをindex.htmlにリンクさせる
+各componentのページをindex.htmlにリンクさせる方法があるはず
+
 
 
