@@ -2,7 +2,7 @@
 
 npm install -g @angular/cli
 
-ng new my-angular-appy
+ng new my-angular-app
 
 --------------------------------
 
