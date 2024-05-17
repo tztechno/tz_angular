@@ -1,17 +1,17 @@
 --------------------------------
-
-(base) shun_ishii@shunnoMacBook-puro atc_angular % node -v
+```
+% node -v
 v18.20.2
-(base) shun_ishii@shunnoMacBook-puro atc_angular % npm -v
+% npm -v
 6.11.3
-
---------------------------------
-
-npm install -g @angular/cli
-
+```
 --------------------------------
 ```
-(base) shun_ishii@shunnoMacBook-puro atc_angular % ng --version
+npm install -g @angular/cli
+```
+--------------------------------
+```
+% ng --version
 
      _                      _                 ____ _     ___
     / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
@@ -38,11 +38,11 @@ rxjs                         6.4.0
 ```    
 --------------------------------
 --------------------------------
-
+```
 ng new my-angular-app
 cd my-angular-app
 ng serve
-
+```
 --------------------------------
 
 ? Would you like to add Angular routing? No
@@ -57,48 +57,15 @@ found 73 vulnerabilities (2 low, 31 moderate, 33 high, 7 critical)
 
 --------------------------------
 
-Browserslist: caniuse-lite is outdated. Please run the following command: `npx browserslist --update-db`
-10% building 3/3 modules 0 active(node:18910) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-ℹ ｢wds｣: Project is running at http://localhost:4200/webpack-dev-server/
-ℹ ｢wds｣: webpack output is served from /
-ℹ ｢wds｣: 404s will fallback to //index.html
-10% building 3/4 modules 1 active ...webpack-dev-server/client/index.js?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-nodenode:internal/crypto/hash:69
-  this[kHandle] = new _Hash(algorithm, xofLen);
-                  ^
-
-Error: error:0308010C:digital envelope routines::unsupported
-    at new Hash (node:internal/crypto/hash:69:19)
-    at Object.createHash (node:crypto:133:10)
-    at module.exports (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/util/createHash.js:135:53)
-    at NormalModule._initBuildHash (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/NormalModule.js:412:16)
-    at /Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/NormalModule.js:444:10
-    at /Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/NormalModule.js:320:13
-    at /Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/loader-runner/lib/LoaderRunner.js:367:11
-    at /Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/loader-runner/lib/LoaderRunner.js:203:19
-    at VirtualFileSystemDecorator.readFile (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:46:13)
-    at processResource (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
-    at iteratePitchingLoaders (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
-    at runLoaders (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
-    at NormalModule.doBuild (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/NormalModule.js:292:3)
-    at NormalModule.build (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/NormalModule.js:438:15)
-    at Compilation.buildModule (/Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/Compilation.js:702:10)
-    at /Users/shun_ishii/DockerProjects/atc_angular/my-angular-app/node_modules/webpack/lib/Compilation.js:944:14 {
-  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
-  library: 'digital envelope routines',
-  reason: 'unsupported',
-  code: 'ERR_OSSL_EVP_UNSUPPORTED'
-}
-
 Node.js v18.20.2
 
 --------------------------------
-
+```
 export NODE_OPTIONS=--openssl-legacy-provider
-
+```
 --------------------------------
-
-(base) shun_ishii@shunnoMacBook-puro my-angular-app % ng serve
+```
+% ng serve
 Browserslist: caniuse-lite is outdated. Please run the following command: `npx browserslist --update-db`
 10% building 3/3 modules 0 active(node:19190) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
 (Use `node --trace-deprecation ...` to show where the warning was created)
@@ -114,7 +81,7 @@ chunk {vendor} vendor.js, vendor.js.map (vendor) 3.9 MB [initial] [rendered]
 Date: 2024-05-17T05:43:26.806Z - Hash: 76629812cf3ac2089650 - Time: 7280ms
 ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
 ℹ ｢wdm｣: Compiled successfully.
-
+```
 --------------------------------
 --------------------------------
 
