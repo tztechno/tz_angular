@@ -10,7 +10,7 @@ v18.20.2
 npm install -g @angular/cli
 
 --------------------------------
-
+```
 (base) shun_ishii@shunnoMacBook-puro atc_angular % ng --version
 
      _                      _                 ____ _     ___
@@ -35,7 +35,7 @@ Package                      Version
 @schematics/angular          8.3.0
 @schematics/update           0.803.0
 rxjs                         6.4.0
-    
+```    
 --------------------------------
 --------------------------------
 
