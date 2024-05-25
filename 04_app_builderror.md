@@ -8,6 +8,7 @@ v18.20.2
 Angular CLI: 8.3.0
  
 PCにはinstall済みである
+
 --------------------------------
 
 ng new my-angular-app
@@ -24,7 +25,6 @@ open your browser on
 
 http://localhost:4200/
 
-
 --------------------------------
 
 cd my-angular-app
@@ -37,5 +37,7 @@ src/app/rate-contest/rate-contest.component.tsを開き、次のコードを追�
 src/app/app.module.tsを開き、RateContestComponentをインポートしてimports配列に追加します。
 
 最後に、src/app/app.component.htmlを開き、<app-rate-contest></app-rate-contest>と追加します。
+
+--------------------------------
 
 既存のmy-angular-app内に新しいコンポーネントが統合されました。ng serveコマンドを実行して、アプリケーションを確認できます。
